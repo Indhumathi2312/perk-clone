@@ -9,19 +9,47 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-body)", "system-ui", "sans-serif"],
-        heading: ["var(--font-heading)", "ui-serif", "Georgia", "serif"],
+        sans: ["var(--font-sono)", "system-ui", "sans-serif"],
+        sono: ["var(--font-sono)", "system-ui", "sans-serif"],
       },
       colors: {
-        "brand-gray": "#171717",
-        hostinger: {
-          purple: "#673de6",
-          "purple-dark": "#5025d1",
-          "purple-light": "#8c85ff",
-          dark: "#0c0d0d",
-          card: "#18191c",
+        brand: {
+          offwhite: "#F5F5EB",
+          perk: "#BEFF50",
+          offblack: "#14140F",
+          orange: "#FF8C5F",
+          purple: "#C8A0FF",
+          cyan: "#82DCFA",
+          pink: "#FAB9FA",
+          yellow: "#FFBE00",
+        },
+        positive: {
+          30: "#007D4B",
+          95: "#D6FFEF",
+          "30X": "#9CC5AB",
+        },
+        negative: {
+          40: "#D20F46",
+          95: "#FDE7ED",
+          "40X": "#F6A5A7",
+        },
+        warning: {
+          60: "#FFBE00",
+          95: "#FFEDB8",
+        },
+        disabled: {
+          5: "#14140f0d",
+          dark: "#979790",
         },
       },
+      boxShadow: {
+        z1: "0px 4px 24px rgba(20, 20, 15, 0.08)",
+        z2: "0px 8px 32px rgba(20, 20, 15, 0.12)",
+      },
+      borderRadius: {
+        small: "18px",
+        medium: "28px",
+      }
     },
   },
   plugins: [],

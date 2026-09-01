@@ -1,0 +1,52 @@
+[
+  {
+    "tagName": "header",
+    "id": "navigation-bar",
+    "className": "navigation-bar w-full flex flex-row items-center fixed left-0 z-[40] lg:!bg-transparent"
+  },
+  {
+    "tagName": "nav",
+    "id": null,
+    "className": "desktop-menu-list flex-1 flex items-center justify-center gap-10 mx-10"
+  },
+  {
+    "tagName": "nav",
+    "id": null,
+    "className": "mx-sm sm:mx-md md:mx-lg md:!px-[40px] lg:mx-auto lg:w-[1380px] shadow-z1 relative overflow-auto scrollbar-hidden shadown-z1 rounded-medium dropdown-content"
+  },
+  {
+    "tagName": "nav",
+    "id": null,
+    "className": "desktop-dropdown-content relative overflow-auto scrollbar-hidden shadow-z1 rounded-medium p-10 mx-4 sm:mx-6 md:mx-10 lg:mx-auto lg:max-w-[1380px]"
+  },
+  {
+    "tagName": "main",
+    "id": "main-content",
+    "className": null
+  },
+  {
+    "tagName": "section",
+    "id": null,
+    "className": "relative col-span-full"
+  },
+  {
+    "tagName": "section",
+    "id": null,
+    "className": null
+  },
+  {
+    "tagName": "footer",
+    "id": null,
+    "className": null
+  },
+  {
+    "tagName": "nav",
+    "id": null,
+    "className": "flex flex-row gap-2"
+  },
+  {
+    "tagName": "nav",
+    "id": null,
+    "className": "flex flex-row gap-2"
+  }
+]

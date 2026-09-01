@@ -1,59 +1,44 @@
-import { NavItem } from "@/types";
-
-export const brand = {
-  name: "Too Good",
-};
-
-export const topBannerData = {
-  visible: false,
-  text: "Save up to 68% on AI Web App Builder + 2 months free",
-  linkText: "Claim Deal",
-  linkHref: "#pricing",
-};
-
-export const mainNavItems: NavItem[] = [
-  {
-    label: "Services",
-    href: "#services",
-  },
-  {
-    label: "Features",
-    href: "#features",
-  },
-  {
-    label: "Pricing",
-    href: "#pricing",
-  },
-  {
-    label: "Projects",
-    href: "#projects",
-  },
-  {
-    label: "FAQs",
-    href: "#faqs",
-  },
+export const mainNavItems = [
+  { label: "Product", href: "#" },
+  { label: "Solutions", href: "#" },
+  { label: "Customers", href: "/customers/" },
+  { label: "Pricing", href: "/pricing/" },
+  { label: "Integrations", href: "/travel-solutions/marketplace/" },
 ];
 
 export const headerCtas = {
-  whatsapp: {
-    label: "WhatsApp",
-    href: "https://wa.me/",
+  login: {
+    label: "Log in",
+    href: "https://app.perk.com/login",
+  },
+  bookDemo: {
+    label: "Book a demo",
+    href: "/demo-request/",
   },
   book: {
-    label: "Book appointment",
-    href: "/bookings/",
+    label: "Book a call",
+    href: "/demo-request/",
   },
+  getStarted: {
+    label: "Get started",
+    href: "https://app.perk.com/en-US/signup",
+  },
+  whatsapp: {
+    label: "WhatsApp",
+    href: "#",
+  }
 };
 
-export const footerSocial = [
-  { label: "LinkedIn", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "Facebook", href: "#" },
-  { label: "X", href: "#" },
-  { label: "YouTube", href: "#" },
-];
+export const brand = {
+  name: "Perk",
+};
 
-export const footerContact = {
-  email: "hello@toogood.com",
-  location: "United Kingdom",
+export const topBannerData = {
+  text: "Meet Perk, your AI-powered corporate card.",
+  linkText: "Learn more",
+  linkHref: "#",
+};
+
+export const footerLinks = {
+  // We'll populate this later from footer.html
 };
